@@ -23,12 +23,13 @@ public class SumArray {
 	public static void sumArr(int []a) {
 		int sum,i ;
 		for ( i = 0,  sum=0; i < a.length; sum += a[i], i++) {}
-		System.out.println("Tong cac phan tu cua Mang la " + sum);
+		System.out.println("Tong cac phan tu cua Mang la :" + sum);
 		}
 	
 	public static void showArr(int []a) {
+		System.out.print("Mang da nhap la : ");
 		for (int i = 0; i < a.length; i++) {
-			System.out.print(a[i]);
+			System.out.print(" " + a[i]);
 		}
 	}
 	
