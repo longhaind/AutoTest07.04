@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testsuite.Test_PraticeLocateElement">
+      <class name="automation.testsuite.LongHoang.TS_ParticeLocateElement_Ex2">
         <methods>
-          <include name="locateElementbyname"/>
           <include name="openFirefox"/>
-          <include name="locateElementbyTagName"/>
-          <include name="locateElementbyLinkText"/>
+          <include name="elementTagName"/>
         </methods>
-      </class> <!-- testsuite.Test_PraticeLocateElement -->
+      </class> <!-- automation.testsuite.LongHoang.TS_ParticeLocateElement_Ex2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

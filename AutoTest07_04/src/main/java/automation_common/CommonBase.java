@@ -11,7 +11,7 @@ public class CommonBase {
 	public WebDriver initDriverTest(String url) {
 		System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.manage().window().maximize();;
+		driver.manage().window().minimize();;;
 		driver.get(url);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		return driver;

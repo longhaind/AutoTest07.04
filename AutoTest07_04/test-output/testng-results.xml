@@ -2,20 +2,20 @@
 <testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T21:34:17 ICT" name="Default suite" finished-at="2024-05-19T21:34:40 ICT" duration-ms="23544">
+  <suite started-at="2024-05-21T12:24:34 ICT" name="Default suite" finished-at="2024-05-21T12:24:51 ICT" duration-ms="17198">
     <groups>
     </groups>
-    <test started-at="2024-05-19T21:34:17 ICT" name="Default test" finished-at="2024-05-19T21:34:40 ICT" duration-ms="23544">
-      <class name="testsuite.Test_PraticeLocateElement">
-        <test-method is-config="true" signature="openFirefox()[pri:0, instance:testsuite.Test_PraticeLocateElement@778d1062]" started-at="2024-05-19T21:34:17 ICT" name="openFirefox" finished-at="2024-05-19T21:34:40 ICT" duration-ms="23386" status="PASS">
+    <test started-at="2024-05-21T12:24:34 ICT" name="Default test" finished-at="2024-05-21T12:24:51 ICT" duration-ms="17198">
+      <class name="automation.testsuite.LongHoang.TS_ParticeLocateElement_Ex2">
+        <test-method is-config="true" signature="openFirefox()[pri:0, instance:automation.testsuite.LongHoang.TS_ParticeLocateElement_Ex2@778d1062]" started-at="2024-05-21T12:24:34 ICT" name="openFirefox" finished-at="2024-05-21T12:24:51 ICT" duration-ms="17161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFirefox -->
-        <test-method signature="locateElementbyLinkText2()[pri:0, instance:testsuite.Test_PraticeLocateElement@778d1062]" started-at="2024-05-19T21:34:40 ICT" name="locateElementbyLinkText2" finished-at="2024-05-19T21:34:40 ICT" duration-ms="138" status="PASS">
+        <test-method signature="elementTagName()[pri:0, instance:automation.testsuite.LongHoang.TS_ParticeLocateElement_Ex2@778d1062]" started-at="2024-05-21T12:24:51 ICT" name="elementTagName" finished-at="2024-05-21T12:24:51 ICT" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locateElementbyLinkText2 -->
-      </class> <!-- testsuite.Test_PraticeLocateElement -->
+        </test-method> <!-- elementTagName -->
+      </class> <!-- automation.testsuite.LongHoang.TS_ParticeLocateElement_Ex2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
